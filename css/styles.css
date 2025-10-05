@@ -1024,15 +1024,22 @@ font-weight: 400;
 .logo-wrapper-foot {
     flex-wrap: wrap;
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: center;
     max-width: 264px;
+    margin-left: 108px;
 }
 
 .subscribe-tablet {
     display: flex;
     flex-direction: column;
     max-width: 453px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 108px;
 }
 
 .qwerty {
@@ -1040,9 +1047,18 @@ font-weight: 400;
     flex-direction: row;
 }
 
+.social-wrapper {
+    margin-left: 24px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
 
-
-
+.button-text {
+    margin-left: 24px;
+}
 
 
 
