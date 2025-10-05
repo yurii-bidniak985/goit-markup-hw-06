@@ -665,6 +665,8 @@ a {
     margin-bottom: 48px;
 }
 
+
+
 .box {
     position: relative;
     overflow: hidden;
@@ -674,6 +676,10 @@ a {
     border: 1px solid #e7e9fc;
     border-top: none;
     padding-left: 16px;
+}
+
+.portfolio-format-test {
+    margin-bottom: 96px;
 }
 
 .foot-style {
@@ -989,9 +995,23 @@ font-weight: 400;
 
 }
 
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px;
+    margin-bottom: 96px;
+    column-gap: 24px;
+}
 
+.portfolio-format-test {
+    margin-bottom: 0px;
+}
 
-
+.portfolio-border {
+    max-width: 356px;
+    margin-bottom: 0;
+}
 
 
 
