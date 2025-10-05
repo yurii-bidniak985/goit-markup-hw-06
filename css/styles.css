@@ -1013,12 +1013,32 @@ font-weight: 400;
     margin-bottom: 0;
 }
 
+.container-foot { 
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
 
+}
 
+.logo-wrapper-foot {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 264px;
+}
 
+.subscribe-tablet {
+    display: flex;
+    flex-direction: column;
+    max-width: 453px;
+}
 
-
-
+.qwerty {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
