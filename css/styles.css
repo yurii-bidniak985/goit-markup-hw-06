@@ -395,13 +395,6 @@ body {
     padding-bottom: 24px;
 }
 
-/* .icon-list-wrapper-foot{
-    width: 280px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .icon-list-wrapper-foot-menu {
     display: flex;
@@ -1060,19 +1053,10 @@ font-weight: 400;
     margin-left: 24px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.modal {
+    width: 408px;
+    height: 584px;
+}
 }
 
 
@@ -1081,5 +1065,8 @@ font-weight: 400;
     .container {
         max-width: 1158px;
     }
+
+
+    
 }
 
