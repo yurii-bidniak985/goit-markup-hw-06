@@ -1039,7 +1039,7 @@ font-weight: 400;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 72px;
-    padding-bottom: 96px;
+    padding-bottom: 120px;
     column-gap: 24px;
 }
 
@@ -1223,7 +1223,6 @@ font-weight: 400;
 }
 
 .portfolio {
-    margin-bottom: 120px;
     row-gap: 48px;
 }
 
