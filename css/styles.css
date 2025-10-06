@@ -821,6 +821,15 @@ font-weight: 400;
         max-width: 768px;
     }
 
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) {
+    .one-hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/office-2x.jpg);
+    }
+}
+
+
 .overlay-p {
     display: none;
 }
