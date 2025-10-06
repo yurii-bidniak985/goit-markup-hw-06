@@ -355,10 +355,10 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .container-burger-nav{
+.container-burger-nav{
      padding: 72px 24px 40px 16px; 
      margin-bottom: 168px; 
- }  */
+ } 
 
 .menu-studio {
     font-family: "Roboto", sans-serif;
