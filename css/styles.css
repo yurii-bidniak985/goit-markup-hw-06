@@ -92,10 +92,10 @@ body {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .backdrop.is-open {
+.backdrop.is-open {
     opacity: 1;
     pointer-events: auto;
-} */
+}
 
 
 .modal {
@@ -329,9 +329,9 @@ body {
     transform: translateX(100%);
 }
 
-/* .menu.is-open {
+.menu.is-open {
     transform: translateX(0);
-} */
+}
 
 
 
@@ -1238,7 +1238,27 @@ font-weight: 400;
     display: flex;
 }
 
+.container-foot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
+.foot-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+}
+
+.logo-wrapper-foot {
+    margin-left: 0;
+}
+
+.social-wrapper {
+    margin-left: 120px;
+}
 
 
 
