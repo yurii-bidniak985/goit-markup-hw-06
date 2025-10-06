@@ -1,5 +1,7 @@
  @media screen { 
     
+
+
 /* .one,
 .one-hero, */
 /* .two, */
@@ -811,6 +813,14 @@ font-weight: 400;
         .overlay-p {
             display: none;
         }
+@media screen and (min-resolution: 192dpi) and (max-width: 767px) {
+    .one-hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/office-2x.jpg);
+    }
+}
+
 }
  }
 /* =======================tablet======================= */
@@ -1098,6 +1108,13 @@ font-weight: 400;
         padding-right: 15px;
     }
 
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px) {
+    .one-hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/office-2x.jpg);
+    }
+}
 
 
 .address-list {
