@@ -39,8 +39,8 @@ body {
 
 .container {
     max-width: 320px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 28px;
+    padding-right: 28px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -552,6 +552,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-bottom: 72px;
 }
 
 .two-text-qwe{
@@ -568,8 +569,6 @@ a {
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     width:calc((100%-32px)/4);
-    margin-left: auto;
-    margin-right: auto;
     
 }
 
@@ -1012,9 +1011,7 @@ font-weight: 400;
 }
 
 .container-tablet {
-
-   padding-left: 28px;
-   padding-right: 28px;
+    padding: 0 28px;
 }
 
 
@@ -1033,8 +1030,6 @@ font-weight: 400;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     width: calc((100%-32px)/4);
-    margin-left: 0;
-    margin-right: 0;
     
 
 }

@@ -314,7 +314,8 @@ address a:focus {
 }
 
 .four .three-name {
-    padding-bottom: 72px 0;
+    padding-bottom: 72px;
+
 }
 
 .three-hero {
